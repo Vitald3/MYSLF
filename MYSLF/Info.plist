@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.306807331833-uma8krf1mb2ck3ff1g2spo92588opk1g</string>
+			</array>
+		</dict>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Urbanist-ExtraBold.ttf</string>
+		<string>Urbanist-ExtraLight.ttf</string>
+		<string>Urbanist-Black.ttf</string>
+		<string>Urbanist-Light.ttf</string>
+		<string>Urbanist-Thin.ttf</string>
+		<string>Urbanist-SemiBold.ttf</string>
+		<string>Urbanist-Regular.ttf</string>
+		<string>Urbanist-Medium.ttf</string>
+		<string>Urbanist-Bold.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+		<string>fetch</string>
+	</array>
+        <key>NSCameraUsageDescription</key>
+        <string>The app requires access to the camera to function.</string>
+</dict>
+</plist>

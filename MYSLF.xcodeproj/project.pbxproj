@@ -6,13 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A97A69AA2EA577CD007C0258 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = A97A69A92EA577CD007C0258 /* GoogleSignIn */; };
+		A97A69AC2EA577CD007C0258 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A97A69AB2EA577CD007C0258 /* GoogleSignInSwift */; };
+		A97A6A952EA57FBF007C0258 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = A97A6A942EA57FBF007C0258 /* FirebaseCore */; };
+		A97A6A972EA57FBF007C0258 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A97A6A962EA57FBF007C0258 /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A97A62842EA234AC007C0258 /* MYSLF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYSLF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A97A66812EA39D6F007C0258 /* Exceptions for "MYSLF" folder in "MYSLF" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A97A62832EA234AC007C0258 /* MYSLF */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A97A62862EA234AC007C0258 /* MYSLF */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A97A66812EA39D6F007C0258 /* Exceptions for "MYSLF" folder in "MYSLF" target */,
+			);
 			path = MYSLF;
 			sourceTree = "<group>";
 		};
@@ -23,6 +43,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97A6A972EA57FBF007C0258 /* FirebaseMessaging in Frameworks */,
+				A97A69AA2EA577CD007C0258 /* GoogleSignIn in Frameworks */,
+				A97A6A952EA57FBF007C0258 /* FirebaseCore in Frameworks */,
+				A97A69AC2EA577CD007C0258 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +89,10 @@
 			);
 			name = MYSLF;
 			packageProductDependencies = (
+				A97A69A92EA577CD007C0258 /* GoogleSignIn */,
+				A97A69AB2EA577CD007C0258 /* GoogleSignInSwift */,
+				A97A6A942EA57FBF007C0258 /* FirebaseCore */,
+				A97A6A962EA57FBF007C0258 /* FirebaseMessaging */,
 			);
 			productName = MYSLF;
 			productReference = A97A62842EA234AC007C0258 /* MYSLF.app */;
@@ -94,6 +122,10 @@
 			);
 			mainGroup = A97A627B2EA234AC007C0258;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A97A69A82EA577CD007C0258 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				A97A6A932EA57FBF007C0258 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A97A62852EA234AC007C0258 /* Products */;
 			projectDirPath = "";
@@ -256,17 +288,19 @@
 				DEVELOPMENT_TEAM = 672A25MLL2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MYSLF/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myslf.app.MYSLF;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myslf.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -288,17 +322,19 @@
 				DEVELOPMENT_TEAM = 672A25MLL2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MYSLF/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myslf.app.MYSLF;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myslf.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -332,6 +368,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A97A69A82EA577CD007C0258 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		A97A6A932EA57FBF007C0258 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A97A69A92EA577CD007C0258 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97A69A82EA577CD007C0258 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		A97A69AB2EA577CD007C0258 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97A69A82EA577CD007C0258 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		A97A6A942EA57FBF007C0258 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97A6A932EA57FBF007C0258 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		A97A6A962EA57FBF007C0258 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97A6A932EA57FBF007C0258 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A97A627C2EA234AC007C0258 /* Project object */;
 }
